@@ -86,15 +86,3 @@
   <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="GCP">
   <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure">
 </p>
-
----
-
-<p align="center">
-  <a href="https://github.com/digitranslab/.github">📚 Documentation</a> •
-  <a href="https://github.com/digitranslab/.github/blob/main/CONTRIBUTING.md">🤝 Contributing</a> •
-  <a href="https://github.com/digitranslab/.github/blob/main/SECURITY.md">🔒 Security</a>
-</p>
-
-<p align="center">
-  <sub>© 2024 DigiTransLab. Made with ❤️</sub>
-</p>
