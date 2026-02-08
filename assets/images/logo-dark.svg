@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" width="400" height="100">
+  <defs>
+    <linearGradient id="logoGradientDark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background (transparent for dark backgrounds) -->
+  <rect width="400" height="100" fill="transparent"/>
+  
+  <!-- Logo Icon - Abstract Data/AI Symbol -->
+  <g transform="translate(10, 15)">
+    <!-- Hexagon shape representing data structure -->
+    <polygon points="35,5 55,15 55,45 35,55 15,45 15,15" fill="url(#logoGradientDark)" opacity="0.9"/>
+    <!-- Inner connection lines -->
+    <circle cx="35" cy="30" r="8" fill="#FFFFFF"/>
+    <line x1="35" y1="22" x2="35" y2="10" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="42" y1="34" x2="52" y2="40" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="28" y1="34" x2="18" y2="40" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+  
+  <!-- Company Name -->
+  <text x="80" y="58" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" fill="#8B5CF6">
+    Digi<tspan fill="#3B82F6">Trans</tspan><tspan fill="#FFFFFF">Lab</tspan>
+  </text>
+  
+  <!-- Tagline -->
+  <text x="80" y="78" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#A0A0A0">
+    Turn Data Into Competitive Advantage
+  </text>
+</svg>

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <defs>
+    <linearGradient id="archBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0f23;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="archPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="archBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563EB;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="600" fill="url(#archBg)"/>
+  
+  <!-- Title -->
+  <text x="450" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">DigiTransLab Architecture Overview</text>
+  <text x="450" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6B7280">[Architecture Diagram Placeholder]</text>
+  
+  <!-- Client Layer -->
+  <rect x="50" y="90" width="800" height="80" rx="8" fill="#0f0f23" stroke="#8B5CF6" stroke-width="2"/>
+  <text x="450" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8B5CF6">Client Layer</text>
+  
+  <rect x="80" y="125" width="120" height="35" rx="4" fill="url(#archPurple)" opacity="0.3"/>
+  <text x="140" y="147" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF">Web App</text>
+  
+  <rect x="230" y="125" width="120" height="35" rx="4" fill="url(#archPurple)" opacity="0.3"/>
+  <text x="290" y="147" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF">Mobile App</text>
+  
+  <rect x="380" y="125" width="120" height="35" rx="4" fill="url(#archPurple)" opacity="0.3"/>
+  <text x="440" y="147" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF">API Clients</text>
+  
+  <rect x="530" y="125" width="120" height="35" rx="4" fill="url(#archPurple)" opacity="0.3"/>
+  <text x="590" y="147" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF">CLI Tools</text>
+  
+  <rect x="680" y="125" width="140" height="35" rx="4" fill="url(#archPurple)" opacity="0.3"/>
+  <text x="750" y="147" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF">Third-Party Apps</text>
+  
+  <!-- Arrow down -->
+  <line x1="450" y1="175" x2="450" y2="200" stroke="#8B5CF6" stroke-width="2"/>
+  <polygon points="445,200 450,210 455,200" fill="#8B5CF6"/>
+  
+  <!-- API Gateway Layer -->
+  <rect x="200" y="215" width="500" height="60" rx="8" fill="#0f0f23" stroke="#3B82F6" stroke-width="2"/>
+  <text x="450" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#3B82F6">API Gateway &amp; Load Balancer</text>
+  
+  <!-- Arrow down -->
+  <line x1="450" y1="280" x2="450" y2="305" stroke="#3B82F6" stroke-width="2"/>
+  <polygon points="445,305 450,315 455,305" fill="#3B82F6"/>
+  
+  <!-- Services Layer -->
+  <rect x="50" y="320" width="800" height="120" rx="8" fill="#0f0f23" stroke="#8B5CF6" stroke-width="2"/>
+  <text x="450" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8B5CF6">Microservices Layer</text>
+  
+  <rect x="80" y="360" width="140" height="60" rx="4" fill="url(#archBlue)" opacity="0.3"/>
+  <text x="150" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF">Auth Service</text>
+  <text x="150" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">Identity &amp; Access</text>
+  
+  <rect x="240" y="360" width="140" height="60" rx="4" fill="url(#archBlue)" opacity="0.3"/>
+  <text x="310" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF">Data Service</text>
+  <text x="310" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">CRUD Operations</text>
+  
+  <rect x="400" y="360" width="140" height="60" rx="4" fill="url(#archBlue)" opacity="0.3"/>
+  <text x="470" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF">AI/ML Service</text>
+  <text x="470" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">Model Inference</text>
+  
+  <rect x="560" y="360" width="140" height="60" rx="4" fill="url(#archBlue)" opacity="0.3"/>
+  <text x="630" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF">Event Service</text>
+  <text x="630" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">Real-Time Stream</text>
+  
+  <rect x="720" y="360" width="110" height="60" rx="4" fill="url(#archBlue)" opacity="0.3"/>
+  <text x="775" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF">Workflow</text>
+  <text x="775" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">Orchestration</text>
+  
+  <!-- Arrow down -->
+  <line x1="450" y1="445" x2="450" y2="470" stroke="#8B5CF6" stroke-width="2"/>
+  <polygon points="445,470 450,480 455,470" fill="#8B5CF6"/>
+  
+  <!-- Data Layer -->
+  <rect x="50" y="485" width="800" height="100" rx="8" fill="#0f0f23" stroke="#3B82F6" stroke-width="2"/>
+  <text x="450" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#3B82F6">Data &amp; Storage Layer</text>
+  
+  <rect x="80" y="525" width="120" height="45" rx="4" fill="url(#archPurple)" opacity="0.3"/>
+  <text x="140" y="552" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF">PostgreSQL</text>
+  
+  <rect x="220" y="525" width="120" height="45" rx="4" fill="url(#archPurple)" opacity="0.3"/>
+  <text x="280" y="552" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF">Redis Cache</text>
+  
+  <rect x="360" y="525" width="120" height="45" rx="4" fill="url(#archPurple)" opacity="0.3"/>
+  <text x="420" y="552" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF">Kafka</text>
+  
+  <rect x="500" y="525" width="120" height="45" rx="4" fill="url(#archPurple)" opacity="0.3"/>
+  <text x="560" y="552" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF">S3 Storage</text>
+  
+  <rect x="640" y="525" width="120" height="45" rx="4" fill="url(#archPurple)" opacity="0.3"/>
+  <text x="700" y="552" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF">Elasticsearch</text>
+</svg>

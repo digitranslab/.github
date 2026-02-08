@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500">
+  <defs>
+    <linearGradient id="allamaWfBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0f23;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="500" fill="url(#allamaWfBg)"/>
+  <text x="450" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">Allama Security Automation Workflow</text>
+  <text x="450" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6B7280">AI-Powered Incident Response Pipeline</text>
+  
+  <!-- Step 1: Trigger -->
+  <rect x="30" y="90" width="150" height="120" rx="8" fill="#0f0f23" stroke="#8B5CF6" stroke-width="2"/>
+  <text x="105" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8B5CF6">1. Trigger</text>
+  <text x="105" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Security Alert</text>
+  <text x="105" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">SIEM, EDR, Cloud</text>
+  <text x="105" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">80+ Integrations</text>
+  
+  <!-- Arrow 1 -->
+  <line x1="185" y1="150" x2="220" y2="150" stroke="#8B5CF6" stroke-width="2"/>
+  <polygon points="220,145 235,150 220,155" fill="#8B5CF6"/>
+  
+  <!-- Step 2: Enrich -->
+  <rect x="240" y="90" width="150" height="120" rx="8" fill="#0f0f23" stroke="#3B82F6" stroke-width="2"/>
+  <text x="315" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#3B82F6">2. Enrich</text>
+  <text x="315" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Context Gathering</text>
+  <text x="315" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">Threat Intel</text>
+  <text x="315" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">Asset Inventory</text>
+  
+  <!-- Arrow 2 -->
+  <line x1="395" y1="150" x2="430" y2="150" stroke="#3B82F6" stroke-width="2"/>
+  <polygon points="430,145 445,150 430,155" fill="#3B82F6"/>
+  
+  <!-- Step 3: AI Triage -->
+  <rect x="450" y="90" width="150" height="120" rx="8" fill="#0f0f23" stroke="#8B5CF6" stroke-width="3"/>
+  <text x="525" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8B5CF6">3. AI Triage</text>
+  <text x="525" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">🤖 LLM Analysis</text>
+  <text x="525" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">Severity Scoring</text>
+  <text x="525" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">Recommendation</text>
+  
+  <!-- Arrow 3 -->
+  <line x1="605" y1="150" x2="640" y2="150" stroke="#8B5CF6" stroke-width="2"/>
+  <polygon points="640,145 655,150 640,155" fill="#8B5CF6"/>
+  
+  <!-- Step 4: Decision -->
+  <polygon points="735,90 810,150 735,210 660,150" fill="#0f0f23" stroke="#3B82F6" stroke-width="2"/>
+  <text x="735" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#3B82F6">4. Decision</text>
+  <text x="735" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">Auto/Manual?</text>
+  
+  <!-- Branch: Auto Response -->
+  <line x1="810" y1="150" x2="870" y2="150" stroke="#27ca40" stroke-width="2"/>
+  <text x="840" y="140" font-family="Arial, sans-serif" font-size="9" fill="#27ca40">Auto</text>
+  
+  <!-- Branch: Manual Review -->
+  <line x1="735" y1="210" x2="735" y2="260" stroke="#ffbd2e" stroke-width="2"/>
+  <text x="755" y="240" font-family="Arial, sans-serif" font-size="9" fill="#ffbd2e">Manual</text>
+  
+  <!-- Auto Response Box -->
+  <rect x="820" y="90" width="60" height="120" rx="8" fill="#27ca40" opacity="0.2" stroke="#27ca40" stroke-width="2"/>
+  <text x="850" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#27ca40" transform="rotate(-90, 850, 155)">AUTO</text>
+  
+  <!-- Manual Review Path -->
+  <rect x="610" y="270" width="250" height="80" rx="8" fill="#0f0f23" stroke="#ffbd2e" stroke-width="2"/>
+  <text x="735" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffbd2e">👤 Human Review</text>
+  <text x="735" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">Analyst Approval Required</text>
+  
+  <!-- Response Actions Row -->
+  <rect x="30" y="380" width="840" height="100" rx="8" fill="#0f0f23" stroke="#8B5CF6" stroke-width="2"/>
+  <text x="450" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8B5CF6">5. Response Actions</text>
+  
+  <rect x="50" y="425" width="120" height="40" rx="4" fill="#8B5CF6" opacity="0.3"/>
+  <text x="110" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Block IP/User</text>
+  
+  <rect x="190" y="425" width="120" height="40" rx="4" fill="#8B5CF6" opacity="0.3"/>
+  <text x="250" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Isolate Host</text>
+  
+  <rect x="330" y="425" width="120" height="40" rx="4" fill="#8B5CF6" opacity="0.3"/>
+  <text x="390" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Create Ticket</text>
+  
+  <rect x="470" y="425" width="120" height="40" rx="4" fill="#8B5CF6" opacity="0.3"/>
+  <text x="530" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Send Alert</text>
+  
+  <rect x="610" y="425" width="120" height="40" rx="4" fill="#8B5CF6" opacity="0.3"/>
+  <text x="670" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Run Playbook</text>
+  
+  <rect x="750" y="425" width="100" height="40" rx="4" fill="#8B5CF6" opacity="0.3"/>
+  <text x="800" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Custom</text>
+  
+  <!-- Arrows to Response -->
+  <line x1="850" y1="210" x2="850" y2="375" stroke="#27ca40" stroke-width="2"/>
+  <line x1="735" y1="350" x2="735" y2="375" stroke="#ffbd2e" stroke-width="2"/>
+</svg>

@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500">
+  <defs>
+    <linearGradient id="medallionBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0f23;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bronzeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#CD7F32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B4513;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="silverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C0C0C0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#808080;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DAA520;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="500" fill="url(#medallionBg)"/>
+  
+  <!-- Title -->
+  <text x="450" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">Medallion Architecture</text>
+  <text x="450" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6B7280">[Medallion Architecture Placeholder]</text>
+  
+  <!-- Data Sources -->
+  <rect x="30" y="120" width="140" height="280" rx="8" fill="#0f0f23" stroke="#8B5CF6" stroke-width="2"/>
+  <text x="100" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8B5CF6">Data Sources</text>
+  
+  <rect x="45" y="170" width="110" height="40" rx="4" fill="#8B5CF6" opacity="0.3"/>
+  <text x="100" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Databases</text>
+  
+  <rect x="45" y="220" width="110" height="40" rx="4" fill="#8B5CF6" opacity="0.3"/>
+  <text x="100" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">APIs</text>
+  
+  <rect x="45" y="270" width="110" height="40" rx="4" fill="#8B5CF6" opacity="0.3"/>
+  <text x="100" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Files (CSV, JSON)</text>
+  
+  <rect x="45" y="320" width="110" height="40" rx="4" fill="#8B5CF6" opacity="0.3"/>
+  <text x="100" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Streaming</text>
+  
+  <!-- Arrow to Bronze -->
+  <line x1="175" y1="260" x2="210" y2="260" stroke="#CD7F32" stroke-width="3"/>
+  <polygon points="210,255 225,260 210,265" fill="#CD7F32"/>
+  
+  <!-- Bronze Layer -->
+  <rect x="230" y="120" width="180" height="280" rx="8" fill="#0f0f23" stroke="url(#bronzeGrad)" stroke-width="3"/>
+  <text x="320" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#CD7F32">🥉 Bronze</text>
+  <text x="320" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">Raw Data Layer</text>
+  
+  <rect x="250" y="190" width="140" height="50" rx="4" fill="url(#bronzeGrad)" opacity="0.2"/>
+  <text x="320" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Raw Ingestion</text>
+  <text x="320" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">As-is data capture</text>
+  
+  <rect x="250" y="250" width="140" height="50" rx="4" fill="url(#bronzeGrad)" opacity="0.2"/>
+  <text x="320" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Schema Evolution</text>
+  <text x="320" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">Handle changes</text>
+  
+  <rect x="250" y="310" width="140" height="50" rx="4" fill="url(#bronzeGrad)" opacity="0.2"/>
+  <text x="320" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Data Lineage</text>
+  <text x="320" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">Track origins</text>
+  
+  <!-- Arrow to Silver -->
+  <line x1="415" y1="260" x2="450" y2="260" stroke="#C0C0C0" stroke-width="3"/>
+  <polygon points="450,255 465,260 450,265" fill="#C0C0C0"/>
+  
+  <!-- Silver Layer -->
+  <rect x="470" y="120" width="180" height="280" rx="8" fill="#0f0f23" stroke="url(#silverGrad)" stroke-width="3"/>
+  <text x="560" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#C0C0C0">🥈 Silver</text>
+  <text x="560" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">Cleansed Data Layer</text>
+  
+  <rect x="490" y="190" width="140" height="50" rx="4" fill="url(#silverGrad)" opacity="0.2"/>
+  <text x="560" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Data Cleansing</text>
+  <text x="560" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">Quality checks</text>
+  
+  <rect x="490" y="250" width="140" height="50" rx="4" fill="url(#silverGrad)" opacity="0.2"/>
+  <text x="560" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Standardisation</text>
+  <text x="560" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">Consistent formats</text>
+  
+  <rect x="490" y="310" width="140" height="50" rx="4" fill="url(#silverGrad)" opacity="0.2"/>
+  <text x="560" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Deduplication</text>
+  <text x="560" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">Remove duplicates</text>
+  
+  <!-- Arrow to Gold -->
+  <line x1="655" y1="260" x2="690" y2="260" stroke="#FFD700" stroke-width="3"/>
+  <polygon points="690,255 705,260 690,265" fill="#FFD700"/>
+  
+  <!-- Gold Layer -->
+  <rect x="710" y="120" width="160" height="280" rx="8" fill="#0f0f23" stroke="url(#goldGrad)" stroke-width="3"/>
+  <text x="790" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFD700">🥇 Gold</text>
+  <text x="790" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">Business Layer</text>
+  
+  <rect x="725" y="190" width="130" height="50" rx="4" fill="url(#goldGrad)" opacity="0.2"/>
+  <text x="790" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Aggregations</text>
+  <text x="790" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">Business metrics</text>
+  
+  <rect x="725" y="250" width="130" height="50" rx="4" fill="url(#goldGrad)" opacity="0.2"/>
+  <text x="790" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Data Products</text>
+  <text x="790" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">Ready for use</text>
+  
+  <rect x="725" y="310" width="130" height="50" rx="4" fill="url(#goldGrad)" opacity="0.2"/>
+  <text x="790" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">ML Features</text>
+  <text x="790" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">Model inputs</text>
+  
+  <!-- Footer -->
+  <text x="450" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#8B5CF6">Powered by Databricks / Apache Spark</text>
+  <text x="450" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">Delta Lake • Unity Catalog • Photon Engine</text>
+</svg>

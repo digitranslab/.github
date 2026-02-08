@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500">
+  <defs>
+    <linearGradient id="consultBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0f23;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="500" fill="url(#consultBg)"/>
+  <text x="450" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">Consulting Engagement Process</text>
+  <text x="450" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6B7280">DigiTransLab Methodology</text>
+  
+  <!-- Phase 1: Discovery -->
+  <rect x="30" y="90" width="200" height="180" rx="8" fill="#0f0f23" stroke="#8B5CF6" stroke-width="2"/>
+  <circle cx="130" cy="120" r="20" fill="#8B5CF6" opacity="0.3"/>
+  <text x="130" y="127" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#8B5CF6">1</text>
+  <text x="130" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">Discovery</text>
+  <text x="130" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Stakeholder Interviews</text>
+  <text x="130" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Current State Analysis</text>
+  <text x="130" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Pain Point Identification</text>
+  <text x="130" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Goal Definition</text>
+  
+  <!-- Arrow 1 -->
+  <line x1="235" y1="180" x2="270" y2="180" stroke="#8B5CF6" stroke-width="2"/>
+  <polygon points="270,175 285,180 270,185" fill="#8B5CF6"/>
+  
+  <!-- Phase 2: Assessment -->
+  <rect x="290" y="90" width="200" height="180" rx="8" fill="#0f0f23" stroke="#3B82F6" stroke-width="2"/>
+  <circle cx="390" cy="120" r="20" fill="#3B82F6" opacity="0.3"/>
+  <text x="390" y="127" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3B82F6">2</text>
+  <text x="390" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">Assessment</text>
+  <text x="390" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Technical Audit</text>
+  <text x="390" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Maturity Evaluation</text>
+  <text x="390" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Gap Analysis</text>
+  <text x="390" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Risk Assessment</text>
+  
+  <!-- Arrow 2 -->
+  <line x1="495" y1="180" x2="530" y2="180" stroke="#3B82F6" stroke-width="2"/>
+  <polygon points="530,175 545,180 530,185" fill="#3B82F6"/>
+  
+  <!-- Phase 3: Strategy -->
+  <rect x="550" y="90" width="200" height="180" rx="8" fill="#0f0f23" stroke="#8B5CF6" stroke-width="2"/>
+  <circle cx="650" cy="120" r="20" fill="#8B5CF6" opacity="0.3"/>
+  <text x="650" y="127" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#8B5CF6">3</text>
+  <text x="650" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">Strategy</text>
+  <text x="650" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Roadmap Development</text>
+  <text x="650" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Architecture Design</text>
+  <text x="650" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Technology Selection</text>
+  <text x="650" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Business Case</text>
+  
+  <!-- Arrow 3 (down) -->
+  <line x1="650" y1="275" x2="650" y2="310" stroke="#8B5CF6" stroke-width="2"/>
+  <polygon points="645,310 650,325 655,310" fill="#8B5CF6"/>
+  
+  <!-- Phase 4: Implementation -->
+  <rect x="550" y="330" width="200" height="150" rx="8" fill="#0f0f23" stroke="#3B82F6" stroke-width="2"/>
+  <circle cx="650" cy="360" r="20" fill="#3B82F6" opacity="0.3"/>
+  <text x="650" y="367" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3B82F6">4</text>
+  <text x="650" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">Implementation</text>
+  <text x="650" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Agile Delivery</text>
+  <text x="650" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Knowledge Transfer</text>
+  <text x="650" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Change Management</text>
+  
+  <!-- Arrow 4 -->
+  <line x1="545" y1="405" x2="510" y2="405" stroke="#3B82F6" stroke-width="2"/>
+  <polygon points="510,400 495,405 510,410" fill="#3B82F6"/>
+  
+  <!-- Phase 5: Optimisation -->
+  <rect x="290" y="330" width="200" height="150" rx="8" fill="#0f0f23" stroke="#8B5CF6" stroke-width="2"/>
+  <circle cx="390" cy="360" r="20" fill="#8B5CF6" opacity="0.3"/>
+  <text x="390" y="367" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#8B5CF6">5</text>
+  <text x="390" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">Optimisation</text>
+  <text x="390" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Performance Tuning</text>
+  <text x="390" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Cost Optimisation</text>
+  <text x="390" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Continuous Improvement</text>
+  
+  <!-- Arrow 5 -->
+  <line x1="285" y1="405" x2="250" y2="405" stroke="#8B5CF6" stroke-width="2"/>
+  <polygon points="250,400 235,405 250,410" fill="#8B5CF6"/>
+  
+  <!-- Phase 6: Support -->
+  <rect x="30" y="330" width="200" height="150" rx="8" fill="#0f0f23" stroke="#3B82F6" stroke-width="2"/>
+  <circle cx="130" cy="360" r="20" fill="#3B82F6" opacity="0.3"/>
+  <text x="130" y="367" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3B82F6">6</text>
+  <text x="130" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">Support</text>
+  <text x="130" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Ongoing Maintenance</text>
+  <text x="130" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• 24/7 Monitoring</text>
+  <text x="130" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Strategic Partnership</text>
+  
+  <!-- Success Metrics -->
+  <rect x="760" y="90" width="120" height="390" rx="8" fill="#0f0f23" stroke="#27ca40" stroke-width="2"/>
+  <text x="820" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#27ca40">✓ Outcomes</text>
+  <text x="820" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">10+ Years</text>
+  <text x="820" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">Experience</text>
+  <text x="820" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">150+</text>
+  <text x="820" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">Clients</text>
+  <text x="820" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">500+</text>
+  <text x="820" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">Projects</text>
+  <text x="820" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">50+ PB</text>
+  <text x="820" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">Data Processed</text>
+  <text x="820" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">1B+</text>
+  <text x="820" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">Daily Events</text>
+</svg>

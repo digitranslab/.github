@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640">
+  <defs>
+    <linearGradient id="bannerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0f23;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bannerAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1280" height="640" fill="url(#bannerBg)"/>
+  
+  <!-- Decorative grid pattern -->
+  <g opacity="0.1">
+    <line x1="0" y1="160" x2="1280" y2="160" stroke="#8B5CF6" stroke-width="1"/>
+    <line x1="0" y1="320" x2="1280" y2="320" stroke="#8B5CF6" stroke-width="1"/>
+    <line x1="0" y1="480" x2="1280" y2="480" stroke="#8B5CF6" stroke-width="1"/>
+    <line x1="320" y1="0" x2="320" y2="640" stroke="#3B82F6" stroke-width="1"/>
+    <line x1="640" y1="0" x2="640" y2="640" stroke="#3B82F6" stroke-width="1"/>
+    <line x1="960" y1="0" x2="960" y2="640" stroke="#3B82F6" stroke-width="1"/>
+  </g>
+  
+  <!-- Decorative data nodes -->
+  <g opacity="0.3" filter="url(#glow)">
+    <circle cx="200" cy="150" r="6" fill="#8B5CF6"/>
+    <circle cx="350" cy="200" r="4" fill="#3B82F6"/>
+    <circle cx="1050" cy="180" r="5" fill="#8B5CF6"/>
+    <circle cx="1100" cy="450" r="4" fill="#3B82F6"/>
+    <circle cx="180" cy="480" r="5" fill="#3B82F6"/>
+    <circle cx="950" cy="500" r="6" fill="#8B5CF6"/>
+    <!-- Connection lines -->
+    <line x1="200" y1="150" x2="350" y2="200" stroke="#8B5CF6" stroke-width="1"/>
+    <line x1="1050" y1="180" x2="1100" y2="450" stroke="#3B82F6" stroke-width="1"/>
+  </g>
+  
+  <!-- Logo Icon -->
+  <g transform="translate(540, 180)">
+    <polygon points="100,10 180,50 180,130 100,170 20,130 20,50" fill="url(#bannerAccent)" opacity="0.9" filter="url(#glow)"/>
+    <circle cx="100" cy="90" r="25" fill="#FFFFFF"/>
+    <line x1="100" y1="65" x2="100" y2="30" stroke="#FFFFFF" stroke-width="4"/>
+    <line x1="120" y1="105" x2="160" y2="125" stroke="#FFFFFF" stroke-width="4"/>
+    <line x1="80" y1="105" x2="40" y2="125" stroke="#FFFFFF" stroke-width="4"/>
+  </g>
+  
+  <!-- Company Name -->
+  <text x="640" y="420" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="bold">
+    <tspan fill="#8B5CF6">Digi</tspan><tspan fill="#3B82F6">Trans</tspan><tspan fill="#FFFFFF">Lab</tspan>
+  </text>
+  
+  <!-- Tagline -->
+  <text x="640" y="480" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#A0A0A0">
+    Turn Data Into Competitive Advantage
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="640" y="530" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#6B7280">
+    Enterprise AI &amp; Data Solutions
+  </text>
+  
+  <!-- Bottom accent line -->
+  <rect x="440" y="570" width="400" height="4" rx="2" fill="url(#bannerAccent)"/>
+</svg>
