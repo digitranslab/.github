@@ -25,28 +25,37 @@ DigiTransLab develops innovative products that help organisations automate their
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Available-success?style=for-the-badge" alt="Available">
-  <img src="https://img.shields.io/badge/Type-AI%20Security%20Automation-8B5CF6?style=for-the-badge" alt="AI Security Automation">
+  <img src="https://img.shields.io/badge/Type-AI--Native%20SOAR%20Platform-8B5CF6?style=for-the-badge" alt="AI-Native SOAR Platform">
 </p>
 
-### Turn Data Into Competitive Advantage with AI-Powered Security
+### Open-Source AI Security Automation
 
-Allama is an **AI Security Automation** platform that empowers security teams to automate incident response, threat detection, and security operations. Built for modern security operations centres (SOCs), Allama reduces manual workload and accelerates response times.
+Allama is an **AI-native security orchestration, automation, and response (SOAR)** platform built for modern Security Operations Centres. It enables security teams to automate threat detection, investigation, and response using visual workflows and autonomous AI agents.
 
 ### ✨ Key Features
 
 | Feature | Description |
 |---------|-------------|
-| 🎨 **Visual Workflows** | Design complex security automations with an intuitive drag-and-drop interface |
-| 🤖 **AI Triage** | Intelligent alert prioritisation and automated initial investigation |
-| 🔗 **80+ Integrations** | Connect with your existing security stack including SIEMs, EDRs, and ticketing systems |
-| 🏠 **Self-Hosted** | Deploy on your infrastructure for complete data control and compliance |
+| 🎨 **Visual Workflow Builder** | Drag-and-drop interface for building security automation playbooks without code |
+| 🤖 **AI Agents** | Native LLM integration (OpenAI, Anthropic, Azure, Google, Ollama) for autonomous investigation |
+| 🔗 **80+ Integrations** | Connect with SIEMs, EDRs, identity providers, ticketing systems, and threat intel |
+| 📋 **Case Management** | Track security incidents from detection to resolution with built-in case management |
+| 🏠 **Self-Hosted** | Deploy on your infrastructure for complete data sovereignty and compliance |
 
 ### 📈 Benefits
 
-- ⚡ **90% Reduction** in incident response time
-- 🔄 **Automate** repetitive security tasks
-- 🎯 **Focus** on high-priority threats
-- 🔒 **Full Control** with self-hosted deployment
+- ⚡ **97% Reduction** in phishing triage time (15 min → 30 sec)
+- 🔄 **Automate** repetitive security tasks with visual playbooks
+- 🎯 **AI-powered** alert summarisation and threat hunting
+- 🔒 **Full Control** with self-hosted, open-source deployment
+
+### 🛠️ Technical Stack
+
+Built on enterprise-grade infrastructure:
+- **Temporal** — Workflow orchestration engine
+- **FastAPI** — High-performance Python backend
+- **Next.js** — Modern React frontend
+- **PostgreSQL** — Reliable, scalable database
 
 ### 🚀 Quick Links
 
@@ -68,32 +77,41 @@ Allama is an **AI Security Automation** platform that empowers security teams to
 
 ---
 
-## 🔄 DBLOCK
+## 🤖 DBLOCK
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Coming%20Soon-orange?style=for-the-badge" alt="Coming Soon">
-  <img src="https://img.shields.io/badge/Type-Data%20Workflow%20Automation-8B5CF6?style=for-the-badge" alt="Data Workflow Automation">
+  <img src="https://img.shields.io/badge/Status-Available-success?style=for-the-badge" alt="Available">
+  <img src="https://img.shields.io/badge/Type-AI%20Application%20Platform-8B5CF6?style=for-the-badge" alt="AI Application Platform">
 </p>
 
-### The Future of Data Pipeline Development
+### Open-Source AI Application Development Platform
 
-DBLOCK is a **Data Workflow Automation** platform that enables teams to build, deploy, and manage data pipelines with unprecedented ease. Combining a visual editor with AI assistance, DBLOCK makes data engineering accessible to everyone.
+DBLOCK is an **AI application development platform** that enables teams to build, deploy, and manage AI applications with a visual flow editor. Create RAG systems, intelligent agents, and AI-powered workflows without extensive coding.
 
-### ✨ Planned Features
+### ✨ Key Features
 
 | Feature | Description |
 |---------|-------------|
-| 🎨 **Visual Editor** | Build data pipelines with an intuitive drag-and-drop interface |
-| 🤖 **AI Assistant** | Get intelligent suggestions and automated pipeline optimisation |
-| 🔗 **100+ Connectors** | Connect to databases, APIs, cloud services, and more |
-| 🌊 **Real-Time Streaming** | Process streaming data with Apache Kafka and Flink integration |
+| 🎨 **Visual Flow Editor** | Build AI applications with an intuitive drag-and-drop canvas interface |
+| 🤖 **AI Agents** | Create autonomous agents with multi-step reasoning, tool integration, and memory |
+| 🔌 **MCP Support** | Model Context Protocol support for extensible AI capabilities |
+| 🔗 **100+ Components** | Pre-built components for LLMs, vector stores, data processing, and integrations |
+| 🏠 **Flexible Deployment** | Desktop app, Docker, or cloud deployment options |
 
-### 📈 Expected Benefits
+### 📈 Benefits
 
-- 🎯 **Self-Service Analytics** — Enable business users to build their own data pipelines
-- 🚫 **No-Code Pipelines** — Reduce dependency on engineering resources
-- 📈 **Enterprise-Grade Scalability** — Handle petabytes of data with ease
-- ⚡ **Real-Time Processing** — React to events as they happen
+- 🚀 **3-4x Faster** AI application development
+- 📚 **RAG Systems** — Build knowledge bases with any document source
+- 🤖 **Custom Agents** — Deploy agents that automate complex workflows
+- 🔓 **No Vendor Lock-in** — Use any LLM provider (OpenAI, Anthropic, Azure, Ollama)
+
+### 🛠️ Supported Technologies
+
+| Category | Options |
+|----------|---------|
+| **LLM Providers** | OpenAI, Anthropic, Google AI, Azure OpenAI, AWS Bedrock, Ollama |
+| **Vector Databases** | Pinecone, Weaviate, Chroma, Qdrant, Milvus, PostgreSQL pgvector |
+| **Data Sources** | SharePoint, Confluence, Google Drive, S3, Databases, APIs |
 
 ### 🚀 Quick Links
 
@@ -119,14 +137,13 @@ DBLOCK is a **Data Workflow Automation** platform that enables teams to build, d
 
 | Feature | Allama | DBLOCK |
 |---------|--------|--------|
-| **Focus** | Security Automation | Data Workflows |
-| **Status** | ✅ Available | 🔜 Coming Soon |
+| **Focus** | Security Automation (SOAR) | AI Application Development |
+| **Status** | ✅ Available | ✅ Available |
 | **Visual Editor** | ✅ Yes | ✅ Yes |
-| **AI Assistance** | ✅ AI Triage | ✅ AI Assistant |
-| **Integrations** | 80+ | 100+ |
+| **AI Capabilities** | ✅ AI Agents & LLM Integration | ✅ AI Agents & RAG Systems |
+| **Integrations** | 80+ Security Tools | 100+ Components |
 | **Self-Hosted** | ✅ Yes | ✅ Yes |
-| **Real-Time** | ✅ Yes | ✅ Yes |
-| **Open Source** | ✅ Yes | ✅ Yes |
+| **Open Source** | ✅ AGPL-3.0 | ✅ Yes |
 
 ---
 
@@ -163,5 +180,5 @@ Have questions about our products? We'd love to hear from you!
 </p>
 
 <p align="center">
-  <sub>© 2024 DigiTransLab. All rights reserved.</sub>
+  <sub>© 2025 DigiTransLab. All rights reserved.</sub>
 </p>

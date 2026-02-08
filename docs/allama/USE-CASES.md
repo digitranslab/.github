@@ -1032,5 +1032,5 @@ Begin with high-impact, low-complexity use cases:
 </p>
 
 <p align="center">
-  <sub>© 2024 DigiTransLab. All rights reserved.</sub>
+  <sub>© 2025 DigiTransLab. All rights reserved.</sub>
 </p>

@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Available-success?style=for-the-badge" alt="Available">
-  <img src="https://img.shields.io/badge/Type-AI%20Security%20Automation-8B5CF6?style=for-the-badge" alt="AI Security Automation">
-  <img src="https://img.shields.io/badge/Licence-Open%20Source-3B82F6?style=for-the-badge" alt="Open Source">
+  <img src="https://img.shields.io/badge/Type-AI--Native%20SOAR%20Platform-8B5CF6?style=for-the-badge" alt="AI-Native SOAR Platform">
+  <img src="https://img.shields.io/badge/Licence-AGPL--3.0-3B82F6?style=for-the-badge" alt="AGPL-3.0">
 </p>
 
 <p align="center">
@@ -18,7 +18,9 @@
 
 ## Overview
 
-**Allama** is an AI-powered security automation platform designed to transform how security teams handle incident response, threat detection, and security operations. Built for modern Security Operations Centres (SOCs), Allama dramatically reduces manual workload and accelerates response times through intelligent automation.
+**Allama** is an open-source, AI-native security orchestration, automation, and response (SOAR) platform built for modern Security Operations Centres. It enables security teams to automate threat detection, investigation, and response using visual workflows and autonomous AI agents.
+
+> **"Open-source AI security automation that turns 15-minute investigations into 30-second workflows."**
 
 <p align="center">
   <a href="https://github.com/digitranslab/allama">
@@ -32,10 +34,10 @@
 ## 🎯 Key Highlight
 
 <p align="center">
-  <img src="https://img.shields.io/badge/⚡%20Response%20Time-90%25%20Reduction-success?style=for-the-badge" alt="90% Reduction in Response Time">
+  <img src="https://img.shields.io/badge/⚡%20Triage%20Time-97%25%20Reduction-success?style=for-the-badge" alt="97% Reduction in Triage Time">
 </p>
 
-> **Achieve a 90% reduction in incident response time** by automating repetitive security tasks and enabling your team to focus on high-priority threats.
+> **Achieve a 97% reduction in phishing triage time** — from 15 minutes to 30 seconds — by automating investigation workflows with AI agents.
 
 ---
 
@@ -45,10 +47,57 @@ Allama provides a comprehensive suite of features designed to streamline securit
 
 | Feature | Description |
 |---------|-------------|
-| 🎨 **Visual Workflows** | Design complex security automations with an intuitive drag-and-drop interface. No coding required to build sophisticated response playbooks. |
-| 🤖 **AI Triage** | Intelligent alert prioritisation and automated initial investigation. Let AI handle the noise whilst your team focuses on genuine threats. |
-| 🔗 **80+ Integrations** | Connect seamlessly with your existing security stack including SIEMs, EDRs, ticketing systems, and cloud platforms. |
-| 🏠 **Self-Hosted Deployment** | Deploy on your own infrastructure for complete data control, compliance adherence, and security. |
+| 🎨 **Visual Workflow Builder** | Drag-and-drop interface for building security automation playbooks. Canvas-based design with real-time validation, YAML export, and conditional logic. |
+| 🤖 **AI Agents & LLM Integration** | Native integration with OpenAI, Anthropic, Azure, Google, and Ollama. Autonomous agents that investigate alerts, generate queries, and write reports. |
+| 🔗 **80+ Integrations** | Connect with SIEMs (Splunk, Elastic), EDRs (CrowdStrike, SentinelOne), identity providers (Okta, Entra ID), ticketing (Jira, PagerDuty), and threat intel (VirusTotal, URLScan). |
+| 📋 **Case Management** | Track security incidents from detection to resolution with custom fields, task assignment, evidence collection, and audit trails. |
+| 🏠 **Self-Hosted Deployment** | Deploy on your own infrastructure for complete data sovereignty. 5-minute setup with Docker Compose, production-ready with AWS ECS. |
+
+---
+
+## 🛠️ Technical Architecture
+
+Built on enterprise-grade infrastructure:
+
+| Component | Technology | Purpose |
+|-----------|------------|---------|
+| **Frontend** | Next.js | Modern, responsive UI |
+| **Backend** | FastAPI | High-performance Python API |
+| **Workflow Engine** | Temporal | Enterprise workflow orchestration |
+| **Database** | PostgreSQL | Reliable, scalable data storage |
+| **Cache** | Redis | Session and cache management |
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                        Allama Platform                       │
+├─────────────────────────────────────────────────────────────┤
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────────────┐  │
+│  │   Next.js   │  │   FastAPI   │  │   Temporal Worker   │  │
+│  │  Frontend   │  │   Backend   │  │  (Workflow Engine)  │  │
+│  └─────────────┘  └─────────────┘  └─────────────────────┘  │
+├─────────────────────────────────────────────────────────────┤
+│  ┌─────────────────────────────────────────────────────────┐│
+│  │              Integration Layer (80+ Tools)              ││
+│  │  SIEM │ EDR │ Identity │ Ticketing │ Threat Intel │ AI  ││
+│  └─────────────────────────────────────────────────────────┘│
+└─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🔗 Integrations
+
+Allama integrates with **80+ security tools and platforms**:
+
+| Category | Tools |
+|----------|-------|
+| **SIEM** | Splunk, Elastic Security, Datadog, Wazuh |
+| **EDR** | CrowdStrike, SentinelOne |
+| **Identity** | Okta, Microsoft Entra ID, Google Workspace, LDAP |
+| **Ticketing** | Jira, Zendesk, PagerDuty, Rootly |
+| **Communication** | Slack, Microsoft Teams, Email (SMTP) |
+| **Threat Intel** | VirusTotal, URLScan, IPInfo, CrowdSec, ThreatStream |
+| **Cloud** | AWS, Google Cloud, Azure |
 
 ---
 
@@ -59,44 +108,23 @@ Allama provides a comprehensive suite of features designed to streamline securit
 <table>
   <tr>
     <td align="center" width="25%">
-      <h3>⚡ 90% Faster</h3>
-      <p>Reduce incident response time by 90% through intelligent automation</p>
+      <h3>⚡ 97% Faster</h3>
+      <p>Reduce phishing triage from 15 minutes to 30 seconds</p>
     </td>
     <td align="center" width="25%">
-      <h3>🔄 Automate Tasks</h3>
-      <p>Eliminate repetitive security tasks and free your team for strategic work</p>
+      <h3>🤖 AI-Native</h3>
+      <p>Built-in LLM integration for autonomous investigation</p>
     </td>
     <td align="center" width="25%">
-      <h3>🎯 Focus on Threats</h3>
-      <p>AI-powered triage ensures your team addresses high-priority threats first</p>
+      <h3>🔓 Open Source</h3>
+      <p>100% open source under AGPL-3.0, no vendor lock-in</p>
     </td>
     <td align="center" width="25%">
-      <h3>🔒 Full Control</h3>
-      <p>Self-hosted deployment gives you complete control over your data</p>
+      <h3>🔒 Self-Hosted</h3>
+      <p>Your data stays on your infrastructure</p>
     </td>
   </tr>
 </table>
-
-### Quantifiable Outcomes
-
-- ⚡ **90% reduction** in incident response time
-- 🔄 **Automation** of repetitive security tasks
-- 📉 **Reduced alert fatigue** through intelligent prioritisation
-- 🎯 **Improved accuracy** in threat detection and response
-- 💰 **Cost savings** through operational efficiency
-
----
-
-## 🔗 Integrations
-
-Allama integrates with **80+ security tools and platforms**, including:
-
-<p align="center">
-  <img src="https://img.shields.io/badge/SIEM-Splunk%20|%20Elastic%20|%20QRadar-3B82F6?style=flat-square" alt="SIEM Integrations">
-  <img src="https://img.shields.io/badge/EDR-CrowdStrike%20|%20Carbon%20Black%20|%20SentinelOne-8B5CF6?style=flat-square" alt="EDR Integrations">
-  <img src="https://img.shields.io/badge/Ticketing-Jira%20|%20ServiceNow%20|%20PagerDuty-3B82F6?style=flat-square" alt="Ticketing Integrations">
-  <img src="https://img.shields.io/badge/Cloud-AWS%20|%20Azure%20|%20GCP-8B5CF6?style=flat-square" alt="Cloud Integrations">
-</p>
 
 ---
 
@@ -152,5 +180,5 @@ Join our community and get support:
 </p>
 
 <p align="center">
-  <sub>© 2024 DigiTransLab. All rights reserved.</sub>
+  <sub>© 2025 DigiTransLab. All rights reserved.</sub>
 </p>

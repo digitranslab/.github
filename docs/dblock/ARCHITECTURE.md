@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Document-Architecture-8B5CF6?style=for-the-badge" alt="Architecture">
-  <img src="https://img.shields.io/badge/Status-Coming%20Soon-3B82F6?style=for-the-badge" alt="Coming Soon">
+  <img src="https://img.shields.io/badge/Status-Available-success?style=for-the-badge" alt="Available">
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 
 ## Overview
 
-This document describes the system architecture of **DBLOCK**, DigiTransLab's data workflow automation platform. DBLOCK is designed with a modular, scalable architecture that enables organisations to build, deploy, and manage sophisticated data pipelines through an intuitive visual interface.
+This document describes the system architecture of **DBLOCK**, DigiTransLab's AI application development platform. DBLOCK is designed with a modular, scalable architecture that enables organisations to build, deploy, and manage AI applications through an intuitive visual flow editor.
 
 ---
 
@@ -335,5 +335,5 @@ DBLOCK is built with enterprise-grade security features:
 </p>
 
 <p align="center">
-  <sub>© 2024 DigiTransLab. All rights reserved.</sub>
+  <sub>© 2025 DigiTransLab. All rights reserved.</sub>
 </p>

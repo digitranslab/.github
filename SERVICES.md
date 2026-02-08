@@ -15,8 +15,8 @@ DigiTransLab provides comprehensive **consulting** and **engineering** services 
 
 <p align="center">
   <img src="https://img.shields.io/badge/Experience-10%2B%20Years-8B5CF6?style=for-the-badge" alt="10+ Years Experience">
-  <img src="https://img.shields.io/badge/Clients-150%2B-3B82F6?style=for-the-badge" alt="150+ Clients">
-  <img src="https://img.shields.io/badge/Projects-500%2B-8B5CF6?style=for-the-badge" alt="500+ Projects">
+  <img src="https://img.shields.io/badge/Enterprise%20Clients-50%2B-3B82F6?style=for-the-badge" alt="50+ Enterprise Clients">
+  <img src="https://img.shields.io/badge/AI%20Models%20Deployed-200%2B-8B5CF6?style=for-the-badge" alt="200+ AI Models">
 </p>
 
 ---
@@ -281,5 +281,5 @@ Ready to transform your data capabilities? Let's talk!
 </p>
 
 <p align="center">
-  <sub>© 2024 DigiTransLab. All rights reserved.</sub>
+  <sub>© 2025 DigiTransLab. All rights reserved.</sub>
 </p>

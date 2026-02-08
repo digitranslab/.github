@@ -256,5 +256,5 @@ Ready to begin your cloud migration journey? Let's discuss your objectives and c
 </p>
 
 <p align="center">
-  <sub>© 2024 DigiTransLab. All rights reserved.</sub>
+  <sub>© 2025 DigiTransLab. All rights reserved.</sub>
 </p>

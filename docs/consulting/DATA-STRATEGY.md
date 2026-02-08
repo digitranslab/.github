@@ -264,5 +264,5 @@ Ready to develop your data strategy? Let's discuss your challenges and objective
 </p>
 
 <p align="center">
-  <sub>© 2024 DigiTransLab. All rights reserved.</sub>
+  <sub>© 2025 DigiTransLab. All rights reserved.</sub>
 </p>

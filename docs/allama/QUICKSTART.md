@@ -525,5 +525,5 @@ Congratulations! You've successfully installed Allama and created your first wor
 </p>
 
 <p align="center">
-  <sub>© 2024 DigiTransLab. All rights reserved.</sub>
+  <sub>© 2025 DigiTransLab. All rights reserved.</sub>
 </p>

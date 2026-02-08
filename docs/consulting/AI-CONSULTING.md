@@ -254,5 +254,5 @@ Ready to begin your AI journey? Let's discuss your objectives and opportunities.
 </p>
 
 <p align="center">
-  <sub>© 2024 DigiTransLab. All rights reserved.</sub>
+  <sub>© 2025 DigiTransLab. All rights reserved.</sub>
 </p>

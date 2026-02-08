@@ -365,7 +365,7 @@ Ready to achieve similar results for your organisation? Let's discuss how DigiTr
 </p>
 
 <p align="center">
-  <sub>© 2024 DigiTransLab. All rights reserved.</sub>
+  <sub>© 2025 DigiTransLab. All rights reserved.</sub>
 </p>
 
 <p align="center">

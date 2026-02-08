@@ -305,5 +305,5 @@ Ready to modernise your data platform? Let's discuss your requirements and objec
 </p>
 
 <p align="center">
-  <sub>© 2024 DigiTransLab. All rights reserved.</sub>
+  <sub>© 2025 DigiTransLab. All rights reserved.</sub>
 </p>

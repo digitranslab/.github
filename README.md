@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="assets/images/banner.png" alt="DigiTransLab Banner" width="100%">
+  <img src="assets/images/banner.svg" alt="DigiTransLab Banner" width="100%">
 </p>
 
 <p align="center">
-  <img src="assets/images/logo-dark.png" alt="DigiTransLab Logo" width="400">
+  <img src="assets/images/logo-dark.svg" alt="DigiTransLab Logo" width="400">
 </p>
 
 <h1 align="center">DigiTransLab</h1>
@@ -30,15 +30,14 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Experience-10%2B%20Years-8B5CF6?style=for-the-badge" alt="10+ Years Experience">
-  <img src="https://img.shields.io/badge/Clients-150%2B-3B82F6?style=for-the-badge" alt="150+ Clients">
-  <img src="https://img.shields.io/badge/Projects-500%2B-8B5CF6?style=for-the-badge" alt="500+ Projects">
-  <img src="https://img.shields.io/badge/Data%20Processed-50%2B%20PB-3B82F6?style=for-the-badge" alt="50+ PB Data Processed">
-  <img src="https://img.shields.io/badge/Daily%20Events-1B%2B-8B5CF6?style=for-the-badge" alt="1B+ Daily Events">
+  <img src="https://img.shields.io/badge/Enterprise%20Clients-50%2B-3B82F6?style=for-the-badge" alt="50+ Enterprise Clients">
+  <img src="https://img.shields.io/badge/AI%20Models%20Deployed-200%2B-8B5CF6?style=for-the-badge" alt="200+ AI Models Deployed">
+  <img src="https://img.shields.io/badge/Uptime%20SLA-99.9%25-3B82F6?style=for-the-badge" alt="99.9% Uptime SLA">
 </p>
 
-| 📅 Years of Experience | 🤝 Clients Served | 🚀 Projects Delivered | 💾 Data Processed | ⚡ Events Daily |
-|:----------------------:|:-----------------:|:---------------------:|:-----------------:|:---------------:|
-| **10+** | **150+** | **500+** | **50+ PB** | **1B+** |
+| 📅 Years of Experience | 🤝 Enterprise Clients | 🤖 AI Models Deployed | ⚡ Uptime SLA |
+|:----------------------:|:---------------------:|:---------------------:|:-------------:|
+| **10+** | **50+** | **200+** | **99.9%** |
 
 ---
 
@@ -46,8 +45,8 @@
 
 DigiTransLab is a leading provider of **Enterprise AI & Data Solutions**, helping organisations transform their data into actionable insights and competitive advantages. We specialise in:
 
-- 🤖 **Artificial Intelligence** — Building intelligent systems that automate, predict, and optimise
-- 📈 **Advanced Analytics** — Turning raw data into strategic business intelligence
+- 🤖 **Artificial Intelligence** — Building intelligent systems with AI agents, LLMs, and automation
+- 🔐 **Security Automation** — AI-native SOAR platform for modern security operations
 - 🏗️ **Modern Data Platforms** — Designing and implementing scalable data infrastructure
 - ☁️ **Cloud Solutions** — Leveraging AWS, GCP, and Azure for enterprise-grade deployments
 
@@ -61,11 +60,11 @@ Our team of experts brings together deep technical expertise with industry knowl
   <tr>
     <td width="50%" valign="top">
       <h3>🔐 Allama</h3>
-      <p><strong>AI Security Automation</strong></p>
-      <p>Automate your security operations with AI-powered workflows. Reduce incident response time by 90% and eliminate repetitive security tasks.</p>
+      <p><strong>AI-Native Security Automation (SOAR)</strong></p>
+      <p>Open-source security orchestration, automation, and response platform. Automate threat detection, investigation, and response with visual workflows and AI agents.</p>
       <ul>
-        <li>✅ Visual Workflows</li>
-        <li>✅ AI Triage</li>
+        <li>✅ Visual Workflow Builder</li>
+        <li>✅ AI Agents (OpenAI, Anthropic, Azure, Ollama)</li>
         <li>✅ 80+ Integrations</li>
         <li>✅ Self-Hosted</li>
       </ul>
@@ -76,15 +75,15 @@ Our team of experts brings together deep technical expertise with industry knowl
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🔄 DBLOCK</h3>
-      <p><strong>Data Workflow Automation</strong></p>
-      <p><img src="https://img.shields.io/badge/Status-Coming%20Soon-orange?style=flat-square" alt="Coming Soon"></p>
-      <p>Build powerful data pipelines with a visual editor and AI assistance. Connect to 100+ data sources with real-time streaming capabilities.</p>
+      <h3>🤖 DBLOCK</h3>
+      <p><strong>AI Application Development Platform</strong></p>
+      <p><img src="https://img.shields.io/badge/Status-Available-success?style=flat-square" alt="Available"></p>
+      <p>Build AI applications with a visual flow editor. Create RAG systems, AI agents, and intelligent workflows with 100+ components and any LLM provider.</p>
       <ul>
-        <li>🔜 Visual Editor</li>
-        <li>🔜 AI Assistant</li>
-        <li>🔜 100+ Connectors</li>
-        <li>🔜 Real-Time Streaming</li>
+        <li>✅ Visual Flow Editor</li>
+        <li>✅ AI Agents & MCP Support</li>
+        <li>✅ 100+ Components</li>
+        <li>✅ Any LLM Provider</li>
       </ul>
       <p>
         <a href="PRODUCTS.md#dblock">📖 Learn More</a> •
@@ -230,7 +229,7 @@ Our engineering teams deliver production-ready solutions:
 ---
 
 <p align="center">
-  <sub>© 2024 DigiTransLab. All rights reserved.</sub>
+  <sub>© 2025 DigiTransLab. All rights reserved.</sub>
 </p>
 
 <p align="center">

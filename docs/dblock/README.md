@@ -1,9 +1,9 @@
-# 📊 DBLOCK
+# 🤖 DBLOCK
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Coming%20Soon-8B5CF6?style=for-the-badge" alt="Coming Soon">
-  <img src="https://img.shields.io/badge/Type-Data%20Workflow%20Automation-3B82F6?style=for-the-badge" alt="Data Workflow Automation">
-  <img src="https://img.shields.io/badge/Licence-Open%20Source-8B5CF6?style=for-the-badge" alt="Open Source">
+  <img src="https://img.shields.io/badge/Status-Available-success?style=for-the-badge" alt="Available">
+  <img src="https://img.shields.io/badge/Type-AI%20Application%20Platform-8B5CF6?style=for-the-badge" alt="AI Application Platform">
+  <img src="https://img.shields.io/badge/Licence-Open%20Source-3B82F6?style=for-the-badge" alt="Open Source">
 </p>
 
 <p align="center">
@@ -16,39 +16,56 @@
 
 ---
 
-## 🚧 Coming Soon
-
-<p align="center">
-  <img src="https://img.shields.io/badge/🚀%20COMING%20SOON-Stay%20Tuned!-8B5CF6?style=for-the-badge" alt="Coming Soon - Stay Tuned!">
-</p>
-
-> **DBLOCK is currently under active development.** We're building the next generation of data workflow automation. Join our community to be notified when DBLOCK launches!
-
----
-
 ## Overview
 
-**DBLOCK** is a powerful data workflow automation platform designed to democratise data access and streamline analytics across your organisation. With an intuitive visual interface and AI-powered assistance, DBLOCK enables teams to build sophisticated data pipelines without writing code.
+**DBLOCK** is an open-source AI application development platform that enables teams to build, deploy, and manage AI applications with a visual flow editor. Create RAG systems, intelligent agents, and AI-powered workflows with 100+ components and any LLM provider.
+
+> **"Build AI applications that deliver results — from RAG systems to intelligent agents."**
 
 <p align="center">
   <a href="https://github.com/digitranslab/dblock">
     <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository">
   </a>
-  <img src="https://img.shields.io/badge/Deployment-Self--Hosted%20|%20Cloud-3B82F6?style=for-the-badge" alt="Self-Hosted | Cloud">
+  <img src="https://img.shields.io/badge/Deployment-Desktop%20|%20Docker%20|%20Cloud-3B82F6?style=for-the-badge" alt="Flexible Deployment">
 </p>
+
+---
+
+## 🎯 Key Highlight
+
+<p align="center">
+  <img src="https://img.shields.io/badge/🚀%20Development-3--4x%20Faster-success?style=for-the-badge" alt="3-4x Faster Development">
+</p>
+
+> **Accelerate AI development 3-4x** with visual flow design, pre-built components, and seamless integration with any LLM provider.
 
 ---
 
 ## ✨ Features
 
-DBLOCK provides a comprehensive suite of features designed to transform your data operations:
+DBLOCK provides a comprehensive suite of features for building AI applications:
 
 | Feature | Description |
 |---------|-------------|
-| 🎨 **Visual Editor** | Design complex data pipelines with an intuitive drag-and-drop interface. Build sophisticated workflows without writing a single line of code. |
-| 🤖 **AI Assistant** | Intelligent assistance for pipeline design, data transformation suggestions, and automated optimisation recommendations. |
-| 🔗 **100+ Connectors** | Connect seamlessly to databases, data warehouses, cloud storage, APIs, and SaaS applications with our extensive connector library. |
-| ⚡ **Real-Time Streaming** | Process data in real-time with built-in streaming capabilities. React to events as they happen with low-latency pipelines. |
+| 🎨 **Visual Flow Editor** | Build AI applications with an intuitive drag-and-drop canvas. Design complex workflows visually without extensive coding. |
+| 🤖 **AI Agents** | Create autonomous agents with multi-step reasoning, tool integration, human-in-the-loop workflows, and conversation memory. |
+| 🔌 **MCP Support** | Model Context Protocol support for extensible AI capabilities and tool integration. |
+| 🔗 **100+ Components** | Pre-built components for LLMs, vector stores, data processing, embeddings, and integrations. |
+| 📚 **RAG Systems** | Build retrieval-augmented generation systems with custom document ingestion, vector search, and citation tracking. |
+| 🏠 **Flexible Deployment** | Desktop application, Docker containers, or cloud deployment options. |
+
+---
+
+## 🛠️ Supported Technologies
+
+DBLOCK integrates with the modern AI stack:
+
+| Category | Options |
+|----------|---------|
+| **LLM Providers** | OpenAI, Anthropic, Google AI, Azure OpenAI, AWS Bedrock, Groq, Ollama |
+| **Vector Databases** | Pinecone, Weaviate, Chroma, Qdrant, Milvus, PostgreSQL pgvector, Cassandra |
+| **Data Sources** | SharePoint, Confluence, Google Drive, S3, Databases, REST APIs |
+| **Enterprise Systems** | Salesforce, ServiceNow, Slack, Microsoft 365 |
 
 ---
 
@@ -58,56 +75,48 @@ DBLOCK provides a comprehensive suite of features designed to transform your dat
 
 <table>
   <tr>
-    <td align="center" width="33%">
-      <h3>📊 Self-Service Analytics</h3>
-      <p>Empower business users to access and analyse data without IT bottlenecks</p>
+    <td align="center" width="25%">
+      <h3>🚀 3-4x Faster</h3>
+      <p>Visual development accelerates AI application building</p>
     </td>
-    <td align="center" width="33%">
-      <h3>🔧 No-Code Data Pipelines</h3>
-      <p>Build production-ready data pipelines with visual tools—no coding required</p>
+    <td align="center" width="25%">
+      <h3>🤖 AI Agents</h3>
+      <p>Build agents that automate complex business workflows</p>
     </td>
-    <td align="center" width="33%">
-      <h3>🏢 Enterprise-Grade Scalability</h3>
-      <p>Scale from small teams to enterprise deployments with confidence</p>
+    <td align="center" width="25%">
+      <h3>🔓 No Lock-in</h3>
+      <p>Use any LLM provider — switch freely between models</p>
+    </td>
+    <td align="center" width="25%">
+      <h3>🔒 Enterprise Ready</h3>
+      <p>SOC 2 compliant with proper data governance</p>
     </td>
   </tr>
 </table>
 
-### Key Advantages
+### Use Cases
 
-- 📊 **Self-service analytics** — Enable business users to access data independently
-- 🔧 **No-code data pipelines** — Build sophisticated workflows without programming
-- 🏢 **Enterprise-grade scalability** — Handle growing data volumes with ease
-- ⚡ **Real-time processing** — React to data events as they happen
-- 🔒 **Data governance** — Built-in security and compliance features
-- 🤖 **AI-powered optimisation** — Intelligent suggestions for pipeline improvements
-
----
-
-## 🔗 Connectors
-
-DBLOCK integrates with **100+ data sources and destinations**, including:
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Databases-PostgreSQL%20|%20MySQL%20|%20MongoDB-3B82F6?style=flat-square" alt="Database Connectors">
-  <img src="https://img.shields.io/badge/Warehouses-Snowflake%20|%20BigQuery%20|%20Redshift-8B5CF6?style=flat-square" alt="Warehouse Connectors">
-  <img src="https://img.shields.io/badge/Cloud-AWS%20S3%20|%20Azure%20Blob%20|%20GCS-3B82F6?style=flat-square" alt="Cloud Storage Connectors">
-  <img src="https://img.shields.io/badge/Streaming-Kafka%20|%20Kinesis%20|%20Pub/Sub-8B5CF6?style=flat-square" alt="Streaming Connectors">
-</p>
+| Use Case | Description |
+|----------|-------------|
+| **Internal Knowledge Base** | AI-powered search across company documents, policies, and procedures |
+| **Customer Support Agents** | Intelligent agents that handle enquiries and escalate when needed |
+| **Document Processing** | Automated extraction, classification, and routing of business documents |
+| **Sales Intelligence** | AI that analyses prospects, generates insights, and drafts outreach |
+| **Process Automation** | Multi-step workflows combining AI reasoning with system integrations |
 
 ---
 
 ## 🚀 Getting Started
 
-DBLOCK is coming soon! Here's how you can prepare:
+Get started with DBLOCK:
 
-1. **⭐ Star the [Repository](https://github.com/digitranslab/dblock)** — Be notified of updates
+1. **📖 Read the [Features](FEATURES.md)** — Explore capabilities in detail
 2. **🏗️ Explore the [Architecture](ARCHITECTURE.md)** — Understand how DBLOCK works
-3. **✨ Review the [Features](FEATURES.md)** — See what's coming
-4. **🗺️ Check the [Roadmap](ROADMAP.md)** — View our development timeline
+3. **🗺️ Check the [Roadmap](ROADMAP.md)** — See what's coming next
+4. **💻 Visit the [Repository](https://github.com/digitranslab/dblock)** — Access the source code
 
 <p align="center">
-  <a href="https://github.com/digitranslab/dblock"><img src="https://img.shields.io/badge/⭐-Star%20Repository-181717?style=for-the-badge&logo=github" alt="Star Repository"></a>
+  <a href="https://github.com/digitranslab/dblock"><img src="https://img.shields.io/badge/💻-View%20Repository-181717?style=for-the-badge&logo=github" alt="View Repository"></a>
   <a href="https://discord.com/invite/2mK6h9rp"><img src="https://img.shields.io/badge/💬-Join%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord"></a>
 </p>
 
@@ -125,11 +134,11 @@ DBLOCK is coming soon! Here's how you can prepare:
 
 ## 🤝 Community & Support
 
-Join our community to stay updated on DBLOCK's development:
+Join our community for support and updates:
 
 <p align="center">
   <a href="https://discord.com/invite/2mK6h9rp"><img src="https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
-  <a href="https://github.com/digitranslab/dblock"><img src="https://img.shields.io/badge/GitHub-Watch%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://github.com/digitranslab/dblock/issues"><img src="https://img.shields.io/badge/GitHub-Report%20Issues-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Issues"></a>
 </p>
 
 ---
@@ -149,5 +158,5 @@ Join our community to stay updated on DBLOCK's development:
 </p>
 
 <p align="center">
-  <sub>© 2024 DigiTransLab. All rights reserved.</sub>
+  <sub>© 2025 DigiTransLab. All rights reserved.</sub>
 </p>

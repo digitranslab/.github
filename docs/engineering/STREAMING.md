@@ -293,5 +293,5 @@ Ready to implement real-time streaming? Let's discuss your requirements and obje
 </p>
 
 <p align="center">
-  <sub>© 2024 DigiTransLab. All rights reserved.</sub>
+  <sub>© 2025 DigiTransLab. All rights reserved.</sub>
 </p>
