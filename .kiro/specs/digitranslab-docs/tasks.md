@@ -201,26 +201,26 @@ This implementation plan creates a comprehensive GitHub documentation repository
 
 - [x] 11. Create visual assets
   - [x] 11.1 Create placeholder logo files
-    - Create assets/images/logo-dark.png (placeholder SVG converted or simple image)
-    - Create assets/images/logo-light.png (placeholder SVG converted or simple image)
+    - Create assets/images/logo-dark.svg
+    - Create assets/images/logo-light.svg
     - _Requirements: 6.1_
 
   - [x] 11.2 Create banner image
-    - Create assets/images/banner.png (placeholder with branding)
+    - Create assets/images/banner.svg (placeholder with branding)
     - _Requirements: 6.2_
 
   - [x] 11.3 Create product screenshot placeholders
-    - Create assets/images/allama-screenshot.png
-    - Create assets/images/dblock-screenshot.png
+    - Create assets/images/allama-screenshot.svg
+    - Create assets/images/dblock-screenshot.svg
     - _Requirements: 6.3_
 
   - [x] 11.4 Create architecture diagram placeholders
-    - Create assets/images/architecture-diagram.png
-    - Create assets/images/medallion-architecture.png
-    - Create assets/images/tech-stack.png
+    - Create assets/images/architecture-diagram.svg
+    - Create assets/images/medallion-architecture.svg
+    - Create assets/images/tech-stack.svg
     - _Requirements: 6.4_
 
-  - [x] 11.5 Create SVG diagrams using Mermaid
+  - [x] 11.5 Create SVG diagrams
     - Create assets/diagrams/data-platform-architecture.svg
     - Create assets/diagrams/allama-workflow.svg
     - Create assets/diagrams/dblock-pipeline.svg
@@ -235,28 +235,28 @@ This implementation plan creates a comprehensive GitHub documentation repository
   - Verify case study structure (challenge/solution/results)
   - Ask the user if questions arise
 
-- [-] 13. Write property tests for documentation validation
-  - [x] 13.1 Write property test for navigation link consistency
+- [x] 13. Write validation tests for documentation
+  - [x] 13.1 Write validation test for navigation link consistency
     - **Property 1: Navigation Link Consistency**
     - **Validates: Requirements 1.6**
 
-  - [~] 13.2 Write property test for British English spelling
+  - [x] 13.2 Write validation test for British English spelling
     - **Property 2: British English Spelling Consistency**
     - **Validates: Requirements 2.7, 9.1**
 
-  - [~] 13.3 Write property test for badge format consistency
+  - [x] 13.3 Write validation test for badge format consistency
     - **Property 5: Badge Format Consistency**
     - **Validates: Requirements 9.2, 9.3**
 
-  - [~] 13.4 Write property test for case study structure
+  - [x] 13.4 Write validation test for case study structure
     - **Property 7: Case Study Structure Completeness**
     - **Validates: Requirements 10.3**
 
 ## Notes
 
-- All tasks are required for comprehensive validation
-- All markdown files should use British English spelling
-- All badges should follow shields.io format with specified styles
-- SVG diagrams can use embedded Mermaid or simple SVG markup
-- Placeholder images should be clearly marked as placeholders
-- Navigation links should be verified manually or via link checker workflow
+- All tasks have been completed
+- All markdown files use British English spelling
+- All badges follow shields.io format with specified styles
+- SVG format used for all visual assets (diagrams and images)
+- Navigation links verified via link checker workflow
+- Validation scripts located in tests/ directory
